@@ -93,11 +93,13 @@ I = ['%', 'x', 'A', '}', 'z', '>', 'B', '-', '8', '[', 'y', '!', 'C', '_', 'D', 
 # EJEMPLO #
 ###########
 
-texto = 'Nunca_mas.'
-#Entre 0 y 94
-llave_cifrado = ([[11, 37, 24, 94, 0, 32, 64, 28, 56], [73, 87, 1, 2, 3, 8, 93, 22, 54, 48, 47], [33, 25, 17, 58, 59, 5, 3, 4, 47, 46, 83]], '-')
+texto = 'Texto_de_prueba'
+print(len(I))
+#Entre 0 y 100
+
+llave_cifrado = llave_cifrado = ([[11, 37, 24, 94, 0, 100, 32, 64, 28, 56], [73, 87, 1, 2, 3, 8, 93, 22, 54, 48, 47], [33, 25, 17, 58, 59, 5, 3, 4, 47, 46, 83]], '-')
 criptograma, llave_descifrado = cifrado(texto, llave_cifrado)
 texto_descifrado = descifrado(criptograma, llave_descifrado)
 print('Texto plano original: ' + texto)
 print('Criptograma: ' + criptograma)
-print('Texto descifrado: ' + texto_descifrado) 
+print('Texto descifrado: ' + texto_descifrado)
