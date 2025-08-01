@@ -81,7 +81,7 @@ def descifrado(criptograma, llave):
 
 
 
-# Alfabeto
+# Alfabeto (lista que se le entrega al programa)
 I = ['%', 'x', 'A', '}', 'z', '>', 'B', '-', '8', '[', 'y', '!', 'C', '_', 'D', 'w', 'E', 'ó', '$', 'v', '6',
      'F', ')', '1', 'u', 'G', 't', 'H', 's', '|', 'I', 'r', 'J', '/', 'q', '3', '*', 'K', 'p', 'L', '°',
      'o', '^', 'M', 'ñ', '5', 'í', '@', 'N', 'n', 'á', 'Ñ', 'm', 'O', '¬', 'l', 'P', 'k', 'Q', 'j', 'R', 'i', '?',
